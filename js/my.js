@@ -14,11 +14,11 @@ var count = 0;
 
 var movSide = "down";
 
-	var img = pjs.tiles.newImage("img/100_150_12.png");
+	// var img = pjs.tiles.newImage("img/100_150_12.png");
 	// var audio = pjs.audio.newAudio("../music/main2.mp3");
-	// var img = pjs.tiles.newImage("img/100_150_12(2).png");
-	// var audio = pjs.audio.newAudio("../music/main4.mp3");
-	var audio = pjs.audio.newAudio("../music/main5.mp3");
+	var img = pjs.tiles.newImage("img/100_150_12(2).png");
+	var audio = pjs.audio.newAudio("../music/main4.mp3");
+	// var audio = pjs.audio.newAudio("../music/main5.mp3");
 
 	var auraCount = 0;
 	var aura_sound = pjs.audio.newAudio("../music/aura_sound.mp3");
