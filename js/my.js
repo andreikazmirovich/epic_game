@@ -150,8 +150,8 @@ game.newLoop("main", function () {
 
 		aura_sound.play();
 		auraCount++;
-		main_pers.x = Math.round(Math.random() * 1500);
-		main_pers.y = Math.round(Math.random() * 700);
+		/*main_pers.x = Math.round(Math.random() * 1500);
+		main_pers.y = Math.round(Math.random() * 700);*/
 		aura.x = Math.round(Math.random() * 1500);
 		aura.y = Math.round(Math.random() * 700);
 	}
